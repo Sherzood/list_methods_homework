@@ -6,4 +6,23 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    k=[fruits.count('apple')]
+    i=0
+    if fruits[i]=='apple':
+        k.append(i)
+    i+=1
+    if fruits[i]=='apple':
+        k.append(i)
+    i+=1
+    if fruits[i]=='apple':
+        k.append(i)
+    i+=1
+    if fruits[i]=='apple':
+        k.append(i)
+    i+=1
+    if fruits[i]=='apple':
+        k.append(i)        
+
+        
+    return k
+print(main(['apple','banana','apple','pear','apple']))    
