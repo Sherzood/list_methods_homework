@@ -19,6 +19,10 @@ def main(fruits):
     i+=1
     if fruits[i]=='apple':
         fruits.pop(i)
+    i+=1
+    if fruits[i]=='apple':
+        fruits.pop(i)
+        
    
     return fruits 
-print(main(['kiwi','mango','apple','apple','applej']))    
+   
