@@ -25,4 +25,4 @@ def main(fruits):
 
         
     return k
-print(main(['apple','banana','apple','pear','apple']))    
+  
